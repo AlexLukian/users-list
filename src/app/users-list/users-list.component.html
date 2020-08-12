@@ -1,6 +1,8 @@
 <mat-selection-list #users>
-  <mat-list-option *ngFor="let user of Users">
-    {{user}}
+  <mat-list-option *ngFor="let user of usersList">
+    <div>
+      <span>{{user.name}}</span>
+    </div>
   </mat-list-option>
 </mat-selection-list>
 
