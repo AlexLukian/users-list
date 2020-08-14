@@ -1,4 +1,8 @@
-span{
+span {
   display: inline-block;
   width: 180px;
+}
+
+.element_width {
+  width: 100%;
 }
